@@ -26,7 +26,7 @@ export const Container = styled.div`
 
 export const Button = styled.a`
     border-radius: 4px;
-    background: ${({primary}) => (primary ? '#4b59f7' : '#04677fb')};
+    background: ${({primary}) => (primary ? '#4b59f7' : '#0467FB')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '12px 64px' : '10px 20px')};
     color: #fff;
@@ -41,7 +41,7 @@ export const Button = styled.a`
         background: #6e7af8;
         color: #fff;
         font-weight: normal;
-        background: ${({primary}) => (primary ? '#04677fb' : '#4b59f7')};
+        background: ${({primary}) => (primary ? '#0467FB' : '#3685fb')};
     }
 
     @media screen and (max-width: 960px) {

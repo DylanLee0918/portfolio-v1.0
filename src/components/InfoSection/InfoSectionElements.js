@@ -76,6 +76,7 @@ export const ImgWrapper = styled.div`
 export const Img = styled.img`
     padding: 0;
     border: 0;
+    border-radius: 10px;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
