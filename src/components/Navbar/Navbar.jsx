@@ -41,8 +41,8 @@ const Navbar = () => {
                     <NavMenu onClick={handleClick} click={click}>
                         {MenuItems.map((item, index) => {
                             return (
-                                <NavItem  to={item.path} key={index}>
-                                    <NavLink>
+                                <NavItem key={index}>
+                                    <NavLink to={item.path}>
                                         { item.menu }
                                     </NavLink>
                                 </NavItem>
@@ -51,13 +51,13 @@ const Navbar = () => {
 
                         <NavItemBtn>
                             {button ? (
-                                <NavBtnLink to="/">
+                                <NavBtnLink href="https://www.linkedin.com/in/jed-dylan-lee-7a66521aa/" target="_blank">
                                     <Button primary>
                                         LINKED IN
                                     </Button>
                                 </NavBtnLink>
                             ) : (
-                                <NavBtnLink to="/">
+                                <NavBtnLink href="https://www.linkedin.com/in/jed-dylan-lee-7a66521aa/" target="_blank">
                                     <Button fontBig primary>
                                         LINKED IN
                                     </Button>

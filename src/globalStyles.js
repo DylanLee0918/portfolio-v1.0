@@ -24,7 +24,7 @@ export const Container = styled.div`
     }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
     border-radius: 4px;
     background: ${({primary}) => (primary ? '#4b59f7' : '#04677fb')};
     white-space: nowrap;
@@ -32,13 +32,14 @@ export const Button = styled.button`
     color: #fff;
     font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
     outline: none;
+    text-decoration: none;
     border: none;
     cursor: pointer;
 
     &:hover {
         transition: all 0.3s ease-out;
-        background: #fff;
-        color: #000;
+        background: #6e7af8;
+        color: #fff;
         font-weight: normal;
         background: ${({primary}) => (primary ? '#04677fb' : '#4b59f7')};
     }
