@@ -78,7 +78,7 @@ export const NavItem = styled.li`
 
     &:hover {
         border-bottom: 4px solid #4b59f7;
-        transition: all 0.3s ease-in-out;   
+        transition: all 0.5s ease-in-out;   
     }
 
     @media screen and (max-width: 960px) {
@@ -100,7 +100,7 @@ export const NavLink =  styled(Link)`
 
     &:hover {
         color: #4b59f7;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.5s ease-in-out;
     }
 
     @media screen and (max-width: 960px) {
